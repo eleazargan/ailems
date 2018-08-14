@@ -1,0 +1,25 @@
+:- dynamic book/3.
+
+book(software_engineering, james, 9781).
+book(truth_about_cancer, ivan, 9783).
+book(artificial_intelligence, james, 9782).
+book(augmented_reality, john, 9786).
+book(requirement_engineering, james, 9780).
+book(requirement_testing, james, 9288).
+book(requirement_elicitation, james, 9002).
+book(how_to_swim, molly, 9789).
+book(please_swim_more, holly_molly, 9389).
+book(how_to_swim_in_pool, molly, 9000).
+
+:- dynamic order/2.
+
+order(1321, 9789).
+order(1321, 9389).
+order(1321, 9000).
+
+:- dynamic user/2.
+
+user(james_deal, 1321).
+user(jaden_smith, 328777).
+user(james_deap, 1231).
+

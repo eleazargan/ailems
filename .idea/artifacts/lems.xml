@@ -1,0 +1,21 @@
+<component name="ArtifactManager">
+  <artifact type="javafx" name="lems">
+    <output-path>$PROJECT_DIR$/out/artifacts/lems</output-path>
+    <properties id="javafx-properties">
+      <options>
+        <option name="appClass" value="main.Main" />
+        <option name="description" value="" />
+        <option name="htmlPlaceholderId" value="" />
+        <option name="title" value="Test" />
+        <option name="vendor" value="Test" />
+        <option name="version" value="" />
+      </options>
+    </properties>
+    <root id="root">
+      <element id="archive" name="lems.jar">
+        <element id="library" level="project" name="jpl" />
+        <element id="module-output" name="lems" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="lems.jnlp">
+  <information>
+    <title>Test</title>
+    <vendor>Test</vendor>
+    <description>lems</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="jpl.jar" size="31599" download="eager" />
+    <jar href="lems.jar" size="8482" download="eager" />
+  </resources>
+  <jfx:javafx-desc  width="600" height="400" main-class="main.Main"  name="lems" />
+  <update check="background"/>
+</jnlp>
